@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+.header {
+  position: relative;
+}
+
 .logo {
   height: 41px;
   width: 41px;
@@ -37,9 +41,6 @@
   text-decoration: none;
 }
 
-.menu {
-}
-
 .menu__page {
   display: flex;
   justify-content: end;
@@ -48,7 +49,7 @@
 }
 
 .menu__link {
-  font-family: 'Inter';
+  font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -97,4 +98,44 @@
 .link__button_color_orange {
   background-color: #fb8f1d;
   color: azure;
+}
+
+.main__title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-left: 189px;
+  color: #202336;
+}
+
+.main__subtitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 74px;
+  margin-left: 191px;
+  color: #202336;
+}
+
+.main__line {
+  margin-top: 21px;
+  margin-left: 191px;
+  color: #202336;
+  font-weight: bold;
+}
+
+.main__image {
+  width: 687px;
+  height: 654px;
+  position: absolute;
+  top: 167px;
+  right: 105px;
+  z-index: -1;
+}
+
+.main__image:hover {
+  opacity: 50%;
+  background-color: #202336;
 }
