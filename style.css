@@ -1,5 +1,12 @@
-.page {
+.body {
   margin: 0;
+  padding: 0;
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .header {
@@ -86,13 +93,14 @@
   font-weight: bold;
   height: 34px;
   width: 132px;
-  border: 1px solid #fb8f1d;
   border-radius: 8px;
+  text-decoration: none;
 }
 
 .link__button_color_white {
   margin-right: 18px;
   color: #fb8f1d;
+  border: 1px solid #fb8f1d;
 }
 
 .link__button_color_orange {
@@ -138,4 +146,34 @@
 .main__image:hover {
   opacity: 50%;
   background-color: #202336;
+}
+
+.button {
+  outline: 1px solid blue;
+}
+
+.button-menu {
+  width: 35%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-left: 191px;
+}
+
+.button-menu:last-child {
+  justify-content: center;
+}
+
+.button__nav {
+  height: 52px;
+  width: 220px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.link__button_border-color_grey {
+  border: 1px solid #b8becf;
+  color: #b8becd;
 }
