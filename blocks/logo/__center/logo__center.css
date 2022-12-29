@@ -1,0 +1,10 @@
+.logo__center {
+  height: 13px;
+  width: 13px;
+  background-color: #fb8f1d;
+  opacity: 80%;
+  z-index: 1;
+  border-radius: 50%;
+  display: flex;
+  align-self: flex-end;
+}

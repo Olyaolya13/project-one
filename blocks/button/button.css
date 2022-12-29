@@ -1,0 +1,18 @@
+@import url(./__link/button__link.css);
+@import url(./__link/_border/button__link_border-color_grey.css);
+@import url(./__link/_color/button__link_color_orange.css);
+@import url(./__link/_color/button__link_color_white.css);
+@import url(./__nav/button__nav.css);
+
+.button {
+  width: 35%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-left: 191px;
+}
+
+.button :last-child {
+  justify-content: center;
+}

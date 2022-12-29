@@ -1,0 +1,12 @@
+.header__image {
+  width: 687px;
+  height: 654px;
+  position: absolute;
+  top: 220px;
+  right: 105px;
+}
+
+.header__image:hover {
+  background-color: #202336;
+  opacity: 50%;
+}

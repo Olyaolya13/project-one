@@ -1,0 +1,9 @@
+.button__link {
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: bold;
+  height: 34px;
+  width: 132px;
+  border-radius: 8px;
+  text-decoration: none;
+}

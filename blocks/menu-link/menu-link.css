@@ -1,0 +1,18 @@
+@import url(./_color/menu__link_color_grey.css);
+@import url(./_color/menu__link_color_black.css);
+
+.menu-link {
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+  margin-right: 105px;
+}
+
+.menu-link:hover {
+  text-decoration: none;
+  color: blueviolet;
+  opacity: 50%;
+}
